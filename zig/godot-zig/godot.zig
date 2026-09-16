@@ -1,0 +1,23 @@
+pub const ClassDB: type = @import("ClassDB.zig");
+pub const CanvasItem: type = @import("classes/CanvasItem.zig");
+pub const Input: type = @import("classes/Input.zig");
+pub const Node: type = @import("classes/Node.zig");
+pub const Node2D: type = @import("classes/Node2D.zig");
+pub const Object: type = @import("classes/Object.zig");
+pub const RefCounted: type = @import("classes/RefCounted.zig");
+pub const Resource: type = @import("classes/Resource.zig");
+pub const Sprite2D: type = @import("classes/Sprite2D.zig");
+pub const gde: type = @import("core/gdextension_interfaces.zig");
+pub const internal: type = @import("core/internal.zig");
+pub const memory: type = @import("core/memory.zig");
+pub const mixins: type = @import("core/mixins.zig");
+pub const misc: type = @import("misc.zig");
+pub const Ref = @import("ref.zig").Ref;
+pub const UtilityFunctions: type = @import("UtilityFunctions.zig");
+pub const Callable: type = @import("variants/Callable.zig");
+pub const String: type = @import("variants/String.zig");
+pub const StringName: type = @import("variants/StringName.zig");
+pub const Variant: type = @import("variants/Variant.zig");
+
+pub const Vector2f: type = @import("variants/vectors.zig").Vector2(f32);
+pub const Vector2i: type = @import("variants/vectors.zig").Vector2(i32);
